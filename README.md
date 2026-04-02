@@ -12,7 +12,7 @@ El proyecto se encuentra publicado utilizando GitHub Pages y puede visualizarse 
 
 El proyecto también se encuentra desplegado en Vercel:
 
-https://frontend-pfo1.vercel.app
+https://frontend-pfo-1.vercel.app
 
 ## Checklist de requerimientos
 
