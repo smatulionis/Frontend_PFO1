@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Sebastian Matulionis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- 
+Sección de encabezado.
+Contiene el título principal y la barra de navegación que permite acceder
+a las diferentes secciones de la página.
+A futuro se podría agregar un logo.
+-->
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#tarjetas">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#peliculas">Intereses</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 
+Sección de presentación personal.
+Aquí se muestra una breve descripción sobre mí, mis intereses
+y una imagen mía.
+En el futuro podría agregarse más información profesional
+o enlaces a proyectos destacados.
+-->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+
+            <p>
+                Hola! Soy Sebastián Matulionis. Actualmente soy estudiante de la Tecnicatura en Desarrollo de
+                Software y
+                me interesan mucho las
+                bases de datos y las tecnologías backend. También he realizado distintos
+                cursos para mejorar mis habilidades en desarrollo web y en la construcción de aplicaciones.
+                Mi objetivo es crear soluciones eficientes, bien estructuradas y fáciles de mantener.
+            </p>
+
+            <img src="img/smat.jpg" alt="Foto de Sebastián Matulionis">
+        </section>
+
+        <!-- 
+Sección de proyectos.
+Se muestran tarjetas con algunos proyectos personales.
+Las tarjetas están organizadas utilizando Flexbox para
+mantener un diseño en columnas.
+En el futuro podrían agregarse más proyectos o enlaces
+a repositorios de código.
+-->
+        <section id="tarjetas">
+            <h2>Mis Proyectos</h2>
+            <div class="contenedor-tarjetas">
+
+                <div class="tarjeta">
+                    <img src="img/proyecto_sistema.png" alt="Sistema de gestión de datos">
+                    <h3>Sistema de Gestión de Datos</h3>
+                    <p>Aplicación desarrollada para administrar y organizar información de manera eficiente.
+                        El sistema permite registrar, consultar y actualizar datos utilizando una base de datos. Fue
+                        pensado para facilitar la gestión de información y mejorar la
+                        disponibilidad de los registros mediante una interfaz clara y funcional.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/proyecto_tareas.jpg" alt="Aplicación de control de tareas">
+                    <h3>Aplicación de Control de Tareas</h3>
+                    <p>Aplicación diseñada para organizar y realizar seguimiento de tareas pendientes.
+                        Permite crear nuevas tareas, marcar su estado y mantener un registro ordenado de
+                        actividades. Este proyecto fue desarrollado con el objetivo de practicar la
+                        organización lógica de la información y la creación de herramientas simples
+                        que ayuden a mejorar la productividad.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tecnologías que domino</th>
+                        <th>Tecnologías que quiero aprender</th>
+                        <th>Hobbies</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>C#</td>
+                        <td>React</td>
+                        <td>Ver series y películas</td>
+                    </tr>
+
+                    <tr>
+                        <td>SQL</td>
+                        <td>Node.js</td>
+                        <td>Salir a correr</td>
+                    </tr>
+
+                    <tr>
+                        <td>HTML</td>
+                        <td>Docker</td>
+                        <td>Jugar videojuegos</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>ASP.NET Core</td>
+                        <td>Tocar la guitarra</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="peliculas">
+            <h2>Mi TOP 3 mejores películas</h2>
+
+            <div class="contenedor-peliculas">
+
+                <div class="pelicula">
+                    <img src="img/lord_poster.jpg" alt="El Señor de los Anillos: El Retorno del Rey">
+                    <h3>El Señor de los Anillos: El Retorno del Rey</h3>
+                    <p>
+                        Final de la trilogía dirigida por Peter Jackson. Combina una historia épica,
+                        personajes únicos y una producción increíble. Es una de las películas más
+                        influyentes del cine de ciencia ficción y un referente del género fantástico.
+                    </p>
+                </div>
+
+                <div class="pelicula">
+                    <img src="img/insterstellar_poster.jpg" alt="Interstellar">
+                    <h3>Interstellar</h3>
+                    <p>
+                        Película de ciencia ficción dirigida por Christopher Nolan que explora el viaje
+                        espacial, la relatividad del tiempo y el vínculo entre seres humanos ante el inminente fin
+                        de
+                        nuestro planeta. Destaca
+                        por su enfoque científico y su impresionante banda sonora.
+                    </p>
+                </div>
+
+                <div class="pelicula">
+                    <img src="img/batman_poster.jpg" alt="The Dark Knight">
+                    <h3>The Dark Knight</h3>
+                    <p>
+                        Dirigida por Christopher Nolan,
+                        presenta una historia intensa sobre el conflicto entre el orden y el caos en Gotham City.
+                        La película se destaca por tener un tono más realista y por la inolvidable actuación de
+                        Heath
+                        Ledger
+                        como el Joker, uno de los villanos más icónicos del cine.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 
+Sección de contacto.
+Incluye un formulario básico para que los usuarios puedan
+enviar sus datos de contacto.
+Actualmente es solo visual, pero en el futuro podría conectarse
+a un backend o servicio para enviar los mensajes automáticamente.
+-->
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <form class="formulario-contacto">
+
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 1112345678" required>
+                </div>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Sebastián Matulionis - Portafolio Personal</p>
+
+        <div class="redes">
+            <a href="https://github.com/smatulionis" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/smatulionisdesarrollosoftware/" target="_blank">LinkedIn</a>
+            <a href="mailto:smatulionis@live.com.ar">Email</a>
+        </div>
+    </footer>
+</body>
+
+</html>
