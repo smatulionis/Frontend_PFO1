@@ -8,6 +8,12 @@ El proyecto se encuentra publicado utilizando GitHub Pages y puede visualizarse 
 
 🔗 https://smatulionis.github.io/Frontend_PFO1/
 
+## Deploy en Vercel
+
+El proyecto también se encuentra desplegado en Vercel:
+
+https://frontend-pfo1.vercel.app
+
 ## Checklist de requerimientos
 
 ### Estructura del Proyecto
