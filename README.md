@@ -2,6 +2,12 @@
 
 Este proyecto consiste en el desarrollo de una landing page de portafolio personal utilizando HTML y CSS. El objetivo del trabajo es aplicar los conocimientos básicos de estructura de documentos HTML, organización del contenido mediante secciones semánticas y estilos con CSS para construir una página web simple, clara y responsive. La página incluye información personal, proyectos, habilidades, intereses y un formulario de contacto presentados de forma organizada y visualmente accesible.
 
+## Proyecto publicado
+
+El proyecto se encuentra publicado utilizando GitHub Pages y puede visualizarse en el siguiente enlace:
+
+🔗 https://smatulionis.github.io/Frontend_PFO1/
+
 ## Checklist de requerimientos
 
 ### Estructura del Proyecto
